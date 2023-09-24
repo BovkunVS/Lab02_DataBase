@@ -126,12 +126,6 @@ namespace Lab02
                 {
                     rtbResult.Text += item.ToStringStudentBus();
                 }
-                if (stopwatch.Elapsed.TotalMinutes >= 2)
-                {
-                    //достигнуто 2 минут - всплывает окно с сообщением
-                    MessageBox.Show("Час очікування перевищив 2 хв.", "Попередження", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    break;
-                }
             }
             stopwatch.Stop(); //остановка таймер
             long elapsedMilliseconds = stopwatch.ElapsedMilliseconds;

@@ -21,7 +21,6 @@ namespace Lab02
         {
             string? data = "Teacher LastName: " + TLastName + Environment.NewLine;
             data += "Teacher FirstName: " + TFirstName + Environment.NewLine;
-            //data += new string('*', 25) + Environment.NewLine;
             return data;
         }
 

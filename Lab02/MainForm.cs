@@ -23,7 +23,7 @@ namespace Lab02
 
             if (result == DialogResult.Cancel)
             {
-                e.Cancel = true; // Отмена пир закрытии формы
+                e.Cancel = true; // Отмена при закрытии формы
             }
         }
 
